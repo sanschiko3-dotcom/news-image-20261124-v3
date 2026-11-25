@@ -64,7 +64,7 @@ rule(30, 84, 994, 84, INK, 2)
 text(30, 99, 'UKRAINE  /  LIBYA  /  WAR AT SEA', font(SANS_B, 12), RED)
 lead_head = 'UKRAINE SEA DRONES SINK RUSSIAN WARSHIP OFF LIBYA'
 paragraph(30, 119, lead_head, font(SERIF, 26), 535, NAVY, 1, 2)
-lead_deck = ('Zelensky confirmed Monday that seven Ukrainian naval drones sank the corvette Merkury at Benghazi. '
+lead_deck = ('After the Sunday 23 Nov attack, Zelensky confirmed Monday that seven Ukrainian naval drones sank the corvette Merkury at Benghazi. '
              'Commissioned in 2023, it was among Russia’s newest warships; its Ka-27 helicopter was destroyed, and cargo ship MV Angara was also hit.')
 paragraph(30, 187, lead_deck, font(SANS, 14), 536, INK, 4, 5)
 
@@ -171,7 +171,7 @@ for idx, (kicker, head, body, kind) in enumerate(stories):
     for j, line in enumerate(hlines):
         text(x, y+21+j*18, line, font(SERIF, 16), NAVY)
     body_y = y+21+len(hlines)*18
-    paragraph(x, body_y, body, font(SANS, 11), col_w, INK, 0, 7)
+    paragraph(x, body_y, body, font(SANS, 12), col_w, INK, 0, 7)
 
 # Full-width legal/technology story with the cited study figures.
 full_y = 652
@@ -198,7 +198,7 @@ briefs = [
 for i, b in enumerate(briefs):
     yy = full_y+123 + i*21
     text(31, yy, f'{i+1:02d}', font(SANS_B, 10), RED)
-    paragraph(61, yy-1, b, font(SANS, 11), 925, INK, 1, 1)
+    paragraph(61, yy-1, b, font(SANS, 12), 925, INK, 1, 1)
     if i < 7:
         rule(61, yy+17, 994, yy+17, '#D8D0C4', 1)
 
