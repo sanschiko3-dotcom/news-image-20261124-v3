@@ -64,9 +64,9 @@ rule(30, 84, 994, 84, INK, 2)
 text(30, 99, 'UKRAINE  /  LIBYA  /  WAR AT SEA', font(SANS_B, 12), RED)
 lead_head = 'UKRAINE SEA DRONES SINK RUSSIAN WARSHIP OFF LIBYA'
 paragraph(30, 119, lead_head, font(SERIF, 26), 535, NAVY, 1, 2)
-lead_deck = ('After the Sunday 23 Nov attack, Zelensky confirmed Monday that seven Ukrainian naval drones sank the corvette Merkury at Benghazi. '
-             'Commissioned in 2023, it was among Russia’s newest warships; its Ka-27 helicopter was destroyed, and cargo ship MV Angara was also hit.')
-paragraph(30, 187, lead_deck, font(SANS, 14), 536, INK, 4, 5)
+lead_deck = ('Monday Zelensky confirmed seven Ukrainian sea drones sank the 2023-commissioned Russian corvette '
+             'Merkury at Benghazi (attack, Sun 23 Nov). A Ka-27 was destroyed; cargo ship MV Angara was hit.')
+paragraph(30, 187, lead_deck, font(SANS, 14), 536, INK, 4, 3)
 
 # Mediterranean panel
 mx, my, mw, mh = 588, 104, 406, 198
